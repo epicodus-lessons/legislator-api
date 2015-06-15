@@ -1,7 +1,6 @@
 # legislator-api
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The legislator-api app is a simple lookup of legislators.  Users can enter a zip and see their legislators from data collected by the [Sunlight Foundation](http://tryit.sunlightfoundation.com/congress).
 
 ## Prerequisites
 
