@@ -1,9 +1,21 @@
-<div class="container">
-  <h1>Legislators</h1>
+<h1>Legislators</h1>
 
+<form>
+  <div class="form-group">
+    <label for="zip">Zip</label>
+    {{input value=zip id="zip" class="form-control"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'submit'}}>Submit</button>
+</form>
+
+
+
+
+<!-- {{#if viewLegislators}}
   <ul>
     {{#each legislator in model}}
-      <li>{{legislator.last_name}}</li>
+      <li>{{legislator.first_name}} {{legislator.last_name}} Contact: {{contact_form}}</li>
     {{/each}}
   </ul>
-</div>
+{{/if}} -->
