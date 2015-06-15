@@ -1,15 +1,15 @@
-<h1>Legislators</h1>
+<h1>Legislator Lookup</h1>
 
 <form>
   <div class="form-group">
     <label for="zip">Zip</label>
-    {{input value=zip id="zip" class="form-control"}}
+    {{input value=zip id="zip"}}
   </div>
 
   <button class="btn btn-primary" {{action 'submit'}}>Submit</button>
 </form>
 
-
+{{outlet}}
 
 
 <!-- {{#if viewLegislators}}
